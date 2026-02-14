@@ -1,0 +1,14 @@
+{
+	"servers": {
+		"my-mcp-weather-server": {
+			"type": "stdio",
+			"command": "go",
+			"args": [
+				"run",
+				"main.go"
+			], // Testing AI Chatbot communicattion with the MCP Server
+			"cwd": "${workspaceFolder}",
+		}
+	},
+	"inputs": []
+}

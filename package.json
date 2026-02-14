@@ -1,0 +1,12 @@
+{
+    "name": "weather-mcp-project",
+    "version": "1.0.0",
+    "scripts": {
+        "start-server": "go run main.go",
+        "start-server-inspector": "DANGEROUSLY_OMIT_AUTH=true npx @modelcontextprotocol/inspector",
+        "dev": "concurrently \"npm run start-server\" \"npm run start-server-inspector\""
+    },
+    "devDependencies": {
+        "concurrently": "^9.2.1"
+    }
+}
